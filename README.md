@@ -8,3 +8,4 @@ Due to the limited size of the dataset(flaw images), we enlarge the dataset with
 - The discriminator uses Patch-GAN, whose output is a matrix. Each entry in the matrix represents the judging result(the discriminator here judges if the input image is artificial or not) of a certain part(sensing field) of the input. The tag image is also connected to the image that is ready to be discriminated as a part of the input.
 ## CNN
 - The CNN uses a normal structure with 3 convolutive layers, 2 pool layers and 1 full connection layer.
+- To compare the discriminating result, we mix the real images and the artificial images in different ratio(from 1:0 to 1:7) as training set for the CNN.
