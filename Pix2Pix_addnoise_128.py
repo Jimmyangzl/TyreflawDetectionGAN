@@ -1,3 +1,6 @@
+#---The GAN will be trained with Pix2Pix method---#
+#---The input images are of size 128x128, grey----#
+
 import tensorflow as tf
 import os
 import time
