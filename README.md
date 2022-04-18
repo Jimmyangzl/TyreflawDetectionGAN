@@ -1,5 +1,5 @@
 # TyreflawDetectionGAN
-Enlarging dataset with GAN to train CNN for tyre flaw detection
+Enlarging dataset(flaw images) with GAN to train CNN for tyre flaw detection
 
 
 ## GAN
